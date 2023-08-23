@@ -50,4 +50,4 @@ jobs:
           app-name: 'mywebapp-poc'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D00A87EA0BE043A4959625EFA1682C13 }}
-          package: '*.jar'
+          package: '*.war'
